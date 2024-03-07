@@ -11,9 +11,9 @@ export default function AdminPage() {
         <div className="w-dvh pl-4">
           <div className="flex flex-row justify-between items-center p-2 ">
             <span className="text-l font-semibold text-slate-400 mr-6">
-               Profile
+              Profile
             </span>
-            <hr className="w-full " />
+            <hr className="w-full mr-2 " />
           </div>
           <div className="h-96 bg-white m-4 mb-8 flex justify-between w-[60rem] items-center">
             holis bb

@@ -6,7 +6,7 @@ export default function Header() {
     <header className="w-full bg-white p-2 flex justify-end items-center">
       {/* <h1 className="text-xl font-semibold">Clínica Los Mata Sanos 2.0</h1> */}
       <div className="flex justify-between  items-center ">
-        <span className="mr-4 text-md font-medium">Rick Melchor</span>
+        <span className="mr-4 text-md font-medium">Rick Antony</span>
         <Avatar>
           <AvatarImage src="https://github.com/shadcn.png" />
           <AvatarFallback>CN</AvatarFallback>
