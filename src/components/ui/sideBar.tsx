@@ -3,7 +3,7 @@ import React from "react";
 export default function SideBar() {
   return (
     <>
-      <div className="bg-white h-screen w-60 p-4 flex flex-col gap-6	shadow-xl ">
+      <div className="bg-white h-screen w-60 p-4 flex flex-col gap-8	shadow-xl ">
         <div className="flex justify-between items-center">
           <div className="font-mediun text-md">Admin</div>
           <div>
@@ -31,9 +31,9 @@ export default function SideBar() {
           placeholder="🔍Search"
           className="w-full rounded-md border-2 border-input bg-background pr-2"
         />
-        <div className="flex flex-col">
+        <div className="flex flex-col gap-2">
           <span className="font-mediun text-md mb-2">Menú</span>
-          <div className="flex items-center gap-2 p-1 rounded-md bg-slate-100">
+          <div className="flex items-center gap-2 p-2 rounded-md bg-slate-100">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-home-2"
@@ -55,7 +55,7 @@ export default function SideBar() {
               Dashboards
             </span>
           </div>
-          <div className="flex items-center gap-2 p-1 rounded-md">
+          <div className="flex items-center gap-2 p-2 rounded-md">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-user-cog"
@@ -81,7 +81,7 @@ export default function SideBar() {
             </svg>
             <span className="text-sm text-slate-400 font-medium ">Admins</span>
           </div>
-          <div className="flex items-center gap-2 p-1 rounded-md">
+          <div className="flex items-center gap-2 p-2 rounded-md">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-users"
@@ -102,7 +102,7 @@ export default function SideBar() {
             </svg>
             <span className="text-sm text-slate-400 font-medium ">Client</span>
           </div>
-          <div className="flex items-center gap-2 p-1 rounded-md">
+          <div className="flex items-center gap-2 p-2 rounded-md">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-credit-card-pay"
@@ -130,7 +130,7 @@ export default function SideBar() {
         </div>
         <hr />
         <div className="flex flex-col">
-          <div className="flex items-center gap-2 p-1 rounded-md">
+          <div className="flex items-center gap-2 p-2 rounded-md">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-settings"
@@ -151,7 +151,7 @@ export default function SideBar() {
               Settings
             </span>
           </div>
-          <div className="flex items-center gap-2 p-1 rounded-md">
+          <div className="flex items-center gap-2 p-2 rounded-md">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-license"
@@ -173,7 +173,7 @@ export default function SideBar() {
               Auditory
             </span>
           </div>
-          <div className="flex items-center gap-2 p-1 rounded-md">
+          <div className="flex items-center gap-2 p-2 rounded-md">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-heart-handshake"
