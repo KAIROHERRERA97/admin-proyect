@@ -3,7 +3,7 @@ import React from "react";
 export default function SideBar() {
   return (
     <>
-      <div className="bg-white h-screen w-52 p-4 flex flex-col gap-6 rounded-md	shadow-md">
+      <div className="bg-white h-[33rem] w-60 p-4 flex flex-col gap-6 rounded-md	shadow-md ">
         <div className="flex justify-between items-center">
           <div className="font-mediun text-md">Admin</div>
           <div>svg</div>
@@ -28,11 +28,11 @@ export default function SideBar() {
           <div className="flex items-center gap-2 p-1 rounded-md">
             svg
             <span className="text-sm text-slate-400 font-medium ">
-              Suscriotions
+              Suscriptions
             </span>
           </div>
         </div>
-        <hr></hr>
+        <hr />
         <div className="flex flex-col">
           <div className="flex items-center gap-2 p-1 rounded-md">
             svg
