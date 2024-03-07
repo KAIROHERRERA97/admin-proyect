@@ -10,7 +10,7 @@ export default function AdminPage() {
         <Header />
         <div className="w-dvh pl-4">
           <div className="flex flex-row justify-between items-center p-2 ">
-            <span className="text-l font-semibold text-slate-400 mr-6">
+            <span className="text-l font-semibold text-slate-500 mr-6">
               Profile
             </span>
             <hr className="w-full mr-2 " />

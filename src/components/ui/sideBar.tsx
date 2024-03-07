@@ -29,7 +29,7 @@ export default function SideBar() {
         <input
           type="text"
           placeholder="🔍Search"
-          className="w-full rounded-md border-2 border-input bg-background pr-2"
+          className="w-full rounded-md border-2"
         />
         <div className="flex flex-col gap-2">
           <span className="font-mediun text-md mb-2">Menú</span>
@@ -41,7 +41,7 @@ export default function SideBar() {
               height="20"
               viewBox="0 0 24 24"
               stroke-width="1.5"
-              stroke="#94A3B8"
+              stroke="#475569"
               fill="none"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -51,7 +51,7 @@ export default function SideBar() {
               <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
               <path d="M10 12h4v4h-4z" />
             </svg>
-            <span className="text-sm text-slate-400 font-medium ">
+            <span className="text-sm text-slate-600 font-medium ">
               Dashboards
             </span>
           </div>
@@ -63,7 +63,7 @@ export default function SideBar() {
               height="20"
               viewBox="0 0 24 24"
               stroke-width="1.5"
-              stroke="#94A3B8"
+              stroke="#475569"
               fill="none"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -79,7 +79,7 @@ export default function SideBar() {
               <path d="M15.97 17.25l1.3 .75" />
               <path d="M20.733 20l1.3 .75" />
             </svg>
-            <span className="text-sm text-slate-400 font-medium ">Admins</span>
+            <span className="text-sm text-slate-600 font-medium ">Admins</span>
           </div>
           <div className="flex items-center gap-2 p-2 rounded-md">
             <svg
@@ -89,7 +89,7 @@ export default function SideBar() {
               height="20"
               viewBox="0 0 24 24"
               stroke-width="1.5"
-              stroke="#94A3B8"
+              stroke="#475569"
               fill="none"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -100,7 +100,7 @@ export default function SideBar() {
               <path d="M16 3.13a4 4 0 0 1 0 7.75" />
               <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
             </svg>
-            <span className="text-sm text-slate-400 font-medium ">Client</span>
+            <span className="text-sm text-slate-600 font-medium ">Client</span>
           </div>
           <div className="flex items-center gap-2 p-2 rounded-md">
             <svg
@@ -110,7 +110,7 @@ export default function SideBar() {
               height="20"
               viewBox="0 0 24 24"
               stroke-width="1.5"
-              stroke="#94A3B8"
+              stroke="#475569"
               fill="none"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -123,7 +123,7 @@ export default function SideBar() {
               <path d="M7.005 15h.005" />
               <path d="M11 15h2" />
             </svg>
-            <span className="text-sm text-slate-400 font-medium ">
+            <span className="text-sm text-slate-600 font-medium ">
               Suscriptions
             </span>
           </div>
@@ -138,7 +138,7 @@ export default function SideBar() {
               height="20"
               viewBox="0 0 24 24"
               stroke-width="1.5"
-              stroke="#94A3B8"
+              stroke="#475569"
               fill="none"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -147,7 +147,7 @@ export default function SideBar() {
               <path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z" />
               <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
             </svg>
-            <span className="text-sm text-slate-400 font-medium ">
+            <span className="text-sm text-slate-600 font-medium ">
               Settings
             </span>
           </div>
@@ -159,7 +159,7 @@ export default function SideBar() {
               height="20"
               viewBox="0 0 24 24"
               stroke-width="1.5"
-              stroke="#94A3B8"
+              stroke="#475569"
               fill="none"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -169,7 +169,7 @@ export default function SideBar() {
               <path d="M9 7l4 0" />
               <path d="M9 11l4 0" />
             </svg>
-            <span className="text-sm text-slate-400 font-medium ">
+            <span className="text-sm text-slate-600 font-medium ">
               Auditory
             </span>
           </div>
@@ -181,7 +181,7 @@ export default function SideBar() {
               height="20"
               viewBox="0 0 24 24"
               stroke-width="1.5"
-              stroke="#94A3B8"
+              stroke="#475569"
               fill="none"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -192,7 +192,7 @@ export default function SideBar() {
               <path d="M12.5 15.5l2 2" />
               <path d="M15 13l2 2" />
             </svg>
-            <span className="text-sm text-slate-400 font-medium ">Support</span>
+            <span className="text-sm text-slate-600 font-medium ">Support</span>
           </div>
         </div>
       </div>
