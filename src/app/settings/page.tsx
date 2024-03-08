@@ -11,7 +11,7 @@ export default function SettingsPage() {
         <section className="w-full px-4">
           <div className="flex flex-row justify-between items-center p-2 ">
             <span className="text-l font-semibold text-blue-500 mr-6">
-              Dashboard
+              Settings
             </span>
             <hr className="w-full mr-2 " />
           </div>

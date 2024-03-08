@@ -5,7 +5,7 @@ export default function SideBar() {
     <>
       <div className="bg-white h-screen w-60 p-4 flex flex-col gap-8	shadow-xl ">
         <div className="flex justify-between items-center">
-          <div className="font-mediun text-md">Admin</div>
+          <div className=" font-semibold text-blue-500 text-md">Admin</div>
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
