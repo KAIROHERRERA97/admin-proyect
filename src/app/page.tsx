@@ -30,29 +30,38 @@ export default function Home() {
           <path d="M12 12l-2 -1.12" />
           <path d="M6 8.6l-2 -1.1" />
         </svg>
-        <form className="flex flex-col">
-          <label htmlFor="email" className="text-sm text-slate-600 font-medium">
-            E-mail:
-          </label>
-          <input
-            type="email"
-            placeholder=" admin@clinicals.com"
-            className="w-full rounded-md border-2 mb-4"
-          />
+        <form className="flex flex-col gap-6">
+          <div className="flex flex-col gap-2">
+            <label
+              htmlFor="email"
+              className="text-sm text-slate-600 font-medium"
+            >
+              E-mail:
+            </label>
+            <input
+              type="email"
+              placeholder=" admin@clinicals.com"
+              className="w-full rounded-md border-2 "
+            />
+          </div>
 
-          <label
-            htmlFor="password"
-            className="text-sm text-slate-600 font-medium"
-          >
-            Password:
-          </label>
-          <input
-            type="password"
-            placeholder=" **********"
-            className="w-full rounded-md border-2 mb-4"
-          />
+          <div className="flex flex-col gap-2">
+            <label
+              htmlFor="password"
+              className="text-sm text-slate-600 font-medium"
+            >
+              Password:
+            </ label>
+            <input
+              type="password"
+              placeholder=" **********"
+              className="w-full rounded-md border-2"
+            />
+          </div>
 
-          <Button className="w-full text-slate-200 font-medium h-7 bg-violet-700">Login</Button>
+          <Button className="w-full text-slate-200 font-medium h-7 bg-violet-700">
+            Login
+          </Button>
         </form>
       </div>
     </main>
