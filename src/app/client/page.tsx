@@ -13,7 +13,7 @@ export default function SettingsPage() {
             <span className="text-lg font-semibold text-blue-500 mr-6">
               Client
             </span>
-            <hr className="w-full mr-2 " />
+            <div className="w-full h-0.5 rounded-md bg-slate-400"></div>
           </div>
           <div className="h-96 bg-white m-4 mb-4 flex justify-between w-full items-center">
             holis bb

@@ -14,7 +14,7 @@ export default function AuditoryPage() {
             <span className="text-lg font-semibold text-blue-500 mr-6">
               Auditory
             </span>
-            <hr className="w-full mr-2 " />
+            <div className="w-full h-0.5 rounded-md bg-slate-400"></div>
           </div>
           <div className="h-96 bg-white  p-4 flex flex-col w-full rounded-md gap-6 relative">
             <div className="flex flex-row justify-between">

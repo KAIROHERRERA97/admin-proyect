@@ -14,43 +14,45 @@ export default function SettingsPage() {
             <span className="text-lg font-semibold text-blue-500 mr-6">
               Settings
             </span>
-            <hr className="w-full mr-2 " />
+            <div className="w-full h-0.5 rounded-md bg-slate-400"></div>
+          </div>
+          <div className="h-auto bg-white  p-4 flex flex-col w-auto rounded-md gap-6 ">
+            <div className="font-semibold text-sm">Configure session</div>
+            <form className="flex flex-col gap-4 ">
+              <div className="flex flex-col gap-1">
+                <label
+                  htmlFor="email"
+                  className="text-sm text-slate-500 font-medium"
+                >
+                  Enter your token:
+                </label>
+                <input
+                  type="email"
+                  placeholder=" rzxhcgjvkhcgfzfygjkvhcgxfdgkjvcgxfzxfjkjvhcgxfgzdfxhdfj"
+                  className="w-full rounded-md border-2 p-1 outline-none "
+                />
+              </div>
+              <div className="flex flex-col gap-1">
+                <label
+                  htmlFor="email"
+                  className="text-sm text-slate-500 font-medium"
+                >
+                  Time in Login
+                </label>
+                <input
+                  type="email"
+                  placeholder=" 1000min"
+                  className="w-full rounded-md border-2 p-1 outline-none"
+                />
+              </div>
+            </form>
+            <Button className="bg-blue-500 h-7 w-1/6 ">Save Changes</Button>
           </div>
           <div className="h-auto bg-white  p-4 flex flex-col w-full rounded-md gap-6">
-           <div className="font-semibold text-sm">Configure session</div>
-           <form className="flex flex-col gap-4">
-           <div className="flex flex-col gap-1">
-            <label
-              htmlFor="email"
-              className="text-sm text-slate-500 font-medium"
-            >
-              Enter your token:
-            </label>
-            <input
-              type="email"
-              placeholder=" rzxhcgjvkhcgfzfygjkvhcgxfdgkjvcgxfzxfjkjvhcgxfgzdfxhdfj"
-              className="w-full rounded-md border-2 "
-            />
+            {" "}
+            Otros
           </div>
-          <div className="flex flex-col gap-1">
-            <label
-              htmlFor="email"
-              className="text-sm text-slate-500 font-medium"
-            >
-              Time in Login
-            </label>
-            <input
-              type="email"
-              placeholder=" 1000min"
-              className="w-full rounded-md border-2 "
-            />
-          </div>
-           </form>
-           <Button className="bg-blue-500 h-7 w-1/6 ">Save Changes</Button>
-          </div>
-          <div className="h-auto bg-white  p-4 flex flex-col w-full rounded-md gap-6"> Otros</div>
         </section>
-
       </article>
     </main>
   );
