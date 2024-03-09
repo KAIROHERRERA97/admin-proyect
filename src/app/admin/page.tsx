@@ -6,11 +6,11 @@ export default function AdminPage() {
   return (
     <main className="flex flex-row gap-1">
       <SideBar />
-      <article className="flex flex-col bg-slate-50 h-screen w-full ">
+      <article className="flex flex-col bg-slate-100 h-screen w-full ">
         <Header />
-        <section className="w-full px-4">
+        <section className="w-full p-8">
           <div className="flex flex-row justify-between items-center p-2 ">
-            <span className="text-l font-semibold text-blue-500 mr-6">
+            <span className="text-lg font-semibold text-blue-500 mr-6">
               Profile
             </span>
             <hr className="w-full mr-2 " />
